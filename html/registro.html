@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/estiloGeneral.css"/>
+</head>
+<body>   
+     <header>
+        <div id="imagensitio">
+             <img src="../media/logo.png" alt="OBRA SOCIAL SANITARIA"/>
+         </div>
+            
+         <nav>
+             <p>OBRA SOCIAL <br/>SANITARIA <br/><br/>"LOS ALISOS"</p>
+             <ul>
+                 <li><a href="index.html">Inicio</a></li>
+                 <li><a href="registro.html">Registro</a></li>
+                 <li><a href="slider.html">Galería</a></li>
+                 <li><a href="noticias.html">Noticias</a></li>
+             </ul>
+             <p id="Hdatos">Guerra, Francisco Leonel<br/>LU: 3590</p>
+        </nav>
+    </header>
+    <section>
+        <div id="formulario">
+            <h1>Formulario de registro de nuevo cliente</h1>
+            <form name="input" action="index.html" method="get">
+             <table border="1">
+                    <tr>
+                        <td class="colum1">ID de usuario: </td>
+                        <td><input type="text" name="ID"/></td>
+                    </tr>
+                    <tr>
+                        <td class="colum1">Contraseña: </td>
+                        <td><input type="password" name="contraseña"/></td>
+                    </tr>
+                    <tr>
+                        <td class="colum1">Repita la contraseña: </td>
+                        <td><input type="password"/></td>
+                    </tr>
+                    <tr>
+                        <td class="colum1">E-mail: </td>
+                        <td><input type="email" name="email"/></td>
+                    </tr>
+                    <tr>
+                        <td class="colum1">Repita el E-mail: </td>
+                        <td><input type="email"/></td>
+                    </tr>
+                    <tr>
+                        <td class="colum1">Nombre completo: </td>
+                        <td><input type="text" name="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td class="colum1">Fecha de nacimiento: </td>
+                        <td><input type="date" name="fecha"/></td>
+                    </tr>
+                    <tr>
+                        <td class="colum1">Sexo: </td>
+                        <td><input type="radio" name="sexo" value="Masculino"/>Masculino<input type="radio" name="sexo" value="Femenino"/>Femenino </td>
+                    </tr>
+                </table>
+                <div id="botones">
+                    <input type="submit" value="Enviar"/> <input type="reset" value="Cancelar"/>
+                </div>    
+            </form>
+        </div>
+        <div id="relleno">
+            <img src="../media/fondo_reg.png"/>
+        </div>
+    </section>
+    <footer>
+        <div id="footerIzq">
+            <h1>Medios de contacto:</h1>
+            <div id="correo"><img src="../media/correo.png"/><div style="float: right; margin-top: 20px; text-align: left; font-size: 20px; margin-left: 10px;">OSLosAlisos@gmail.com</div> </div>
+            <div id="telefono"><img src="../media/telefono.png"><div style="float: right; margin-top: 20px; text-align: left; font-size: 20px; margin-left: 10px;">0388 423-8516</div></div>
+        </div>
+        <div id="footerDer">
+        <h1>También nos puede encontrar en:</h1>
+            <ul>
+                <li><a href="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_960_720.png">Facebook</a></li>
+                <li><a href="https://anthoncode.com/wp-content/uploads/2019/07/logotipo-twitter.png">Twitter</a></li>
+                <li><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/600px-Instagram_logo_2016.svg.png">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

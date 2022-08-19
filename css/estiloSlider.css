@@ -1,0 +1,159 @@
+#imagensitio{
+    background-color: black;
+    width: 40%;
+    float: left;
+    background-size: contain;
+}
+
+header  {
+    background-color: black; 
+}
+
+header nav ul{
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+    margin-top: -50px;
+}
+
+header nav ul li{
+    color: white;
+    display: inline-block;
+    font: bold;
+    background-color: gray;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+    padding: 6.5px;
+    margin-left: 15px;
+}
+
+header a{
+    color: white;
+}
+
+header nav ul li a:link{
+    text-decoration: none;
+}
+
+header nav {
+    width: 60%;
+    height: 229px;
+    float: right;
+    background-color: black;
+}
+
+header nav p{
+    color: white;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 35px;
+}
+
+#Hdatos{
+    float: right;
+    margin-top: -200px;
+    margin-right: -420px;
+}
+
+section{
+    
+    width: 100%;
+    background-color: lightgrey;
+}
+
+section p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: -15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section .slider {
+	width: 100%;
+    margin-bottom: -20px ;
+    height: 100%;
+    overflow: hidden;
+    height: 90%;
+}
+
+section .slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+section .slider li {
+	width: 100%;
+	list-style: none;
+}
+
+section .slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+footer{
+    clear: both;
+    float: left;
+    background-color: black;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#footerIzq{
+    float: left;
+    width: 50%;
+    border-color: white;
+    border-style: dashed;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#footerIzq #correo{
+    float: left;
+    margin-left: 10px;
+    width: 40%;
+}
+
+#footerIzq #telefono {
+    float: left;
+    margin-right: 15px;
+    width: 29%;
+}
+#footerDer{
+    float: right;
+    width: 49%;
+    text-align: left;
+}
+
+#footerDer h1{
+    text-align: center;
+}
+
+#footerDer ul li{
+    display: inline-block;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+#footerDer ul li a{
+    color: white;
+}
